@@ -1,14 +1,13 @@
 # Python cache
 __pycache__/
 *.py[cod]
-*$py.class
 
 # Virtual environments
 venv/
 .venv/
 env/
 
-# IDE / editor
+# IDE / editors
 .vscode/
 .idea/
 
@@ -16,11 +15,14 @@ env/
 .DS_Store
 Thumbs.db
 
-# Generated / temporary files
+# Logs / temporary files
 *.log
 *.tmp
 
-# Input/output files, but keep folders
+# Generated files
+*.pdf
+
+# Input/output contents, but keep folders
 01_images_to_pdf/input/*
 !01_images_to_pdf/input/.gitkeep
 
