@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Generated / temporary files
+*.log
+*.tmp
+
+# Input/output files, but keep folders
+01_images_to_pdf/input/*
+!01_images_to_pdf/input/.gitkeep
+
+01_images_to_pdf/output/*
+!01_images_to_pdf/output/.gitkeep
